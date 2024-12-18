@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><!-- jQuery読み込み -->
+    <script>
+        //header,footerの読み込み
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+</head>
+
+
+<div id="header"></div>
+
+<body>
+<main>
+    <h2>Research</h2>
+    <p>Yuki Kamiya is interested in the field of tissue engineering and has developed a novel method for fabricating tubular hydrogel structures within a channel.
+         This method is designed for applications in vascular cell scaffolds.
+          By utilizing the meniscus effect, the photocurable hydrogel solution along the inner wall of the channel is cured into a ring-like shape.
+           Tubular structures are then created by moving the interface of two liquids and sequentially fabricating these hydrogel rings.
+            This approach holds potential for creating complex tubular geometries, including branching and curved structures, by employing channels shaped to these geometries.
+    </p>
+    <h2>YouTube</h2>
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/wXVPUMvUu9w" title="Tubular Hydrogel Fabrication Method Leveraging the Meniscus Effect" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+</main>
+</body>
+</html>
